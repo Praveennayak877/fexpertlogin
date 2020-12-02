@@ -1,0 +1,1 @@
+export  { SHOW_DATA } from './action'
