@@ -1,0 +1,45 @@
+[
+  {
+    "Location": "Indore",
+    "Id": "Harsh Patel",
+    "Title": "Bussiness consultan",
+    "Rating": "*",
+    "Charges": "1100/-",
+    "Color": "#FF0000"
+  },
+  {
+    "Location": "Ujjain",
+    "Id": "Rohit Sharma",
+    "Title": "Good Communication",
+    "Rating": "*",
+    "Charges": "999/-"
+  },
+  {
+    "Location": "Bhopal",
+    "Id": "Sagar Shahlani",
+    "Title": "Bussiness Executive",
+    "Rating": "*",
+    "Charges": "1990/-"
+  },
+  {
+    "Location": "USA",
+    "Id": "Kushagara Jain",
+    "Title": "Good Consultancy",
+    "Rating": "*",
+    "Charges": "1899/-"
+  },
+  {
+    "Location": "Mumbai",
+    "Id": "Ritik Jadhav",
+    "Title": "Stock Market",
+    "Rating": "*",
+    "Charges": "2199/-"
+  },
+  {
+    "Location": "Bangalore",
+    "Id": "Rahul Tewatia",
+    "Title": "Teaching",
+    "Rating": "*",
+    "Charges": "2450/-"
+  }
+]

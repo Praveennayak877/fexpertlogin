@@ -1,0 +1,76 @@
+.header{
+   
+    padding-top: 10px;
+    justify-content: flex-start;
+   text-align: start;
+   margin: 10px;
+   margin-left: 10px;
+   
+  width: auto;
+  margin-block-start: 10px;
+  overflow: hidden;
+  float: inline-start;
+  
+position: absolute;
+width: 1325px;
+height: 2107px;
+left: 0px;
+top: 0px;
+
+
+
+   
+}
+
+a.Text{ 
+    color: black;
+    margin: 5px;
+    
+    
+    
+}
+.header1{
+    text-align: center;
+    padding-top: 20px;
+    float: right;
+    
+}
+.headerButton{
+    border: 0px;
+    background: none;
+    font-size: large;
+    float: right;
+    color: #17345F;
+    cursor: pointer;
+    
+}
+.searchField{
+    
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #17345F;
+    
+}
+.searchField > input{
+    padding-block: 5px;
+    margin-block: 5px;
+    margin:auto;
+    
+
+    }
+.searchField > .location{
+    margin: 20px;
+    padding: 5px;
+}
+.searchField > .seach{
+    margin: 20px;
+    padding: 5px;
+}
+.Link{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    
+}

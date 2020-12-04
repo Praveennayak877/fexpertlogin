@@ -1,0 +1,72 @@
+.Search{
+    
+   padding-left: 200px;
+   flex-direction: column;
+       height: 139px;
+    /* width: 589px;
+    margin-left: 226px; */
+    
+
+}
+.Result{
+
+    text-align: center;
+}
+.Filters > button{
+    border: none;
+    color: #17345F;
+    background-color: white;
+    font-style: normal;
+    font-size: large;
+    margin: 10px;
+   overflow: hidden;
+   
+}
+p {
+    margin: 0%;
+}
+h5{
+    margin: 0%;
+}
+h2{
+    margin: 0%;
+}
+.Sbutton{
+    
+   
+    float: right;
+    border: none;
+    color: white;
+    background-color: #17345F;
+     /* padding-right: 50px;
+    padding-left: 50px; */
+    margin: 0px;
+    text-align: center;
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;
+    
+    
+}
+.Wrapper{
+    
+    height: 20px;
+    width: auto;
+
+    
+}
+
+.image{
+     width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 20px;
+    
+  object-fit: cover;
+  object-position: right;
+}
+
+
