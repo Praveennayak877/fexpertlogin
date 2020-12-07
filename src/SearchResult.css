@@ -68,5 +68,13 @@ h2{
   object-fit: cover;
   object-position: right;
 }
+.ExpertName{
+    background-color: white;
+   text-align: center;
+    padding-left: 0px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
 
 

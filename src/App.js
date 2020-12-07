@@ -9,6 +9,7 @@ import Main from "./component/main";
 import Signup from "./component/Signup";
 import Header from "./component/Header";
 import SearchResult from "./component/SearchResult";
+import ExpertProfile from "./component/ExpertProfile";
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
       
       <div className="App">
         <Switch>
-          <Route exact path="/Searchresult" component={SearchResult}></Route>
           <Route exact path="/" component={Header}></Route>
+          <Route exact path="/ExpertProfile" component={ExpertProfile}></Route>
+          <Route exact path="/Searchresult" component={SearchResult}></Route>
           <Route exact path="/Main" component={Main}></Route>
           <Route exact path="/Login" component={Login}></Route>
           <Route exact path="/Signup" component={Signup}></Route>
