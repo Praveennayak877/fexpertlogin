@@ -1,7 +1,6 @@
 import Login from "./component/login";
 import "./App.css";
 
-
 import Saved from "./component/saved";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Container from "./component/Container";
@@ -10,14 +9,16 @@ import Signup from "./component/Signup";
 import Header from "./component/Header";
 import SearchResult from "./component/SearchResult";
 import ExpertProfile from "./component/ExpertProfile";
+import Contact from "./component/Contact";
 
 function App() {
   return (
     <Router>
       <Container />
-      
+
       <div className="App">
         <Switch>
+          <Route exact path="/Contact" component={Contact}></Route>
           <Route exact path="/" component={Header}></Route>
           <Route exact path="/ExpertProfile" component={ExpertProfile}></Route>
           <Route exact path="/Searchresult" component={SearchResult}></Route>

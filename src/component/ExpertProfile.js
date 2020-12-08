@@ -12,24 +12,25 @@ import Signup from "./Signup";
 import PostData from "../postData.json";
 import StarIcon from "@material-ui/icons/Star";
 import StarBorderIcon from "@material-ui/icons/StarBorder";
-
+import Header from './Header'
 function ExpertProfile() {
-  const [state, setstate] = useState(false);
+  // const [state, setstate] = useState(false);
 
-  const toggleDrawer = (open) => (event) => {
-    setstate(open);
-  };
-  const [state1, setstate1] = useState(false);
+  // const toggleDrawer = (open) => (event) => {
+  //   setstate(open);
+  // };
+  // const [state1, setstate1] = useState(false);
 
-  const toggleDrawer1 = (open) => (event) => {
-    setstate1(open);
-  };
+  // const toggleDrawer1 = (open) => (event) => {
+  //   setstate1(open);
+  // };
   // const [search, setSearch] = useState("");
   // const [location, setLocation] = useState("");
 
   return (
     <div className="Expert">
-      <div className="searchField2">
+      <Header />
+       <div className="searchField2">
         <input
           type="text"
           className="location"
@@ -49,7 +50,7 @@ function ExpertProfile() {
         />
       </div>
       <div className="Filters"></div>
-      <div className="header">
+      {/*<div className="header">
         <Link to="/">
           <img src="/fexpertlogo.jpeg" alt="" height="50px" />
         </Link>
@@ -67,7 +68,7 @@ function ExpertProfile() {
             <button className="Link">About Us</button>
           </Link>
 
-          <Link to="/" class="Text">
+          <Link to="/Contact" class="Text">
             <button className="Link">Contact Us</button>
           </Link>
           <button className="headerButton" onClick={toggleDrawer1(true)}>
@@ -78,12 +79,12 @@ function ExpertProfile() {
           </button>
         </div>
 
-        <div>
+        <div> */}
           {/* <Button variant="text"
                 color="inherit"
                 onClick={toggleDrawer(true)}
       >Login</Button>*/}
-        </div>
+        {/* </div>
         <div className="Drawer">
           <Drawer
             anchor="right"
@@ -125,7 +126,7 @@ function ExpertProfile() {
         </div>
 
         <div></div>
-      </div>
+      </div> */}
       <div className="Container">
         <h2 class="item">
           Video Consultation <p className="slot">Afternoon (2 slots)</p>

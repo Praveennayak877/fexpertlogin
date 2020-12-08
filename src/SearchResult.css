@@ -1,13 +1,12 @@
 .Search{
     
-   padding-left: 200px;
-   flex-direction: column;
-       height: 139px;
+   padding-left: auto;
+   /* flex-direction: column; */
+       height: auto;
     /* width: 589px;
     margin-left: 226px; */
-    
+    }
 
-}
 .Result{
 
     text-align: center;
@@ -18,7 +17,7 @@
     background-color: white;
     font-style: normal;
     font-size: large;
-    margin: 10px;
+    margin: 0px;
    overflow: hidden;
    
 }
@@ -31,6 +30,7 @@ h5{
 h2{
     margin: 0%;
 }
+
 .Sbutton{
     
    
@@ -55,8 +55,9 @@ h2{
     
     height: 20px;
     width: auto;
-
-    
+    text-align: start;
+    position: absolute;
+    padding-left: 50px;
 }
 
 .image{
@@ -64,17 +65,20 @@ h2{
   height: 120px;
   border-radius: 50%;
   margin: 20px;
-    
+display: flex;
   object-fit: cover;
   object-position: right;
 }
 .ExpertName{
     background-color: white;
-   text-align: center;
-    padding-left: 0px;
+   
+    padding-right: 650px; 
     height: 50px;
     border: none;
     cursor: pointer;
+    
 }
-
+.ExpertName > h1{
+    text-align: start;
+}
 

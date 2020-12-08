@@ -1,5 +1,5 @@
 .Expert{
-    position: absolute;
+    /* position: absolute; */
 width: 1330px;
 height: auto;
 left: 0px;
@@ -9,19 +9,19 @@ margin: 0px;
 overflow: hidden;
 
 
- 
+
 }
 .Alignment{
-      
-  
+
+
        height: auto;
        width: 800px;
         display: grid;
         padding-right: 10px;
        margin: 0px;
-        float: right;       
-        
-        
+        float: right;
+
+
 }
 .Alignment1{
     height: 100px;
@@ -30,7 +30,7 @@ overflow: hidden;
 .searchField2{
      text-align: center;
     margin: auto;
-    margin-top: 90px;
+    
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #17345F;
@@ -52,9 +52,9 @@ overflow: hidden;
    padding-top: 50px;
     display: grid;
     grid-template-columns: 150px;
-     
 
-   
+
+
 }
 .Alignment > h2{
     text-align: initial;
@@ -62,11 +62,11 @@ overflow: hidden;
     margin: 0px;
     width: auto;
     height: auto;
-    flex-direction: row; 
+    flex-direction: row;
      display: grid;
 
-    
-    
+
+
 }
  /* .Alignment > p {
     text-align: start;
@@ -75,8 +75,8 @@ overflow: hidden;
     overflow: hidden;
     margin: 0px;
     padding-top: 10px;
-     
-     
+
+
 
 }  */
 .imageAvtar{
@@ -84,21 +84,21 @@ overflow: hidden;
   height: 150px;
   border-radius: 50%;
   margin: 0px;
-   text-align: start; 
+   text-align: start;
   object-fit: cover;
   object-position: left;
   display: flex;
   overflow: hidden;
   padding-top: 80px;
-  
-  
+
+
 
 }
 .imageWrapper{
     height: 90px;
     width: 10px;
    margin: 0%;
-    
+
 }
 .Container{
     display: grid;
@@ -108,8 +108,8 @@ overflow: hidden;
     float: right;
     padding-top: 50px;
     justify-content: end;
-    
-    
+
+
 }
 .item{
     background-color: whitesmoke;
@@ -119,25 +119,25 @@ overflow: hidden;
     text-align: start;
     padding: 2px;
     text-align: initial;
-    
-    
+
+
 }
 .Firm{
     display: grid;
-  
+
     width: 300px;
     height: 200px;
     margin: 0px;
     text-align: start;
     padding-left: 0px;
- 
+
    display: inline-flex;
 }
 .Firm > h3 {
     margin: 0px;
     width: 0px;
     height: 0px;
-    
+
 }
 .Firm > p{
     margin: 0px;
@@ -146,16 +146,16 @@ overflow: hidden;
     width: 100px;
     display: grid;
     grid-template-columns: 150px;
-    
+
 }
 .Time{
     display: grid;
-    
+
     width: 350px;
-    height: 250px; 
+    height: 250px;
     margin: 0px;
     padding-left: 100px;
-    
+
 }
 .Review{
     height: auto;
@@ -169,7 +169,7 @@ overflow: hidden;
   height: 100px;
   border-radius: 50%;
   margin: auto;
-   text-align: start; 
+   text-align: start;
   object-fit: cover;
   object-position: left;
   padding-top: 0px;
@@ -178,7 +178,7 @@ overflow: hidden;
     text-align: start;
     width: 800px;
     float: right;
-    
+
     justify-content: right;
 }
 .slot{
@@ -192,6 +192,6 @@ overflow: hidden;
     background-color: #17345F;
     padding: 5px;
     border: 6px solid whitesmoke;
-    
-    
+
+
 }

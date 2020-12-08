@@ -39,7 +39,7 @@ function Header() {
           <button className="Link">About Us</button>
         </Link>
 
-        <Link to="/" class="Text">
+        <Link to="/Contact" class="Text">
           <button className="Link">Contact Us</button>
         </Link>
         <button className="headerButton" onClick={toggleDrawer1(true)}>
@@ -97,7 +97,7 @@ function Header() {
       </div>
 
       <div></div>
-      <SearchResult />
+      {/* <SearchResult /> */}
     </div>
   );
 }
