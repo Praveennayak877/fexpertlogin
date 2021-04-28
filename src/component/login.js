@@ -252,7 +252,7 @@ class Login extends Component {
             buttonText="LOGIN WITH TWITTER"
            /><br></br>*/}
                 <GoogleLogin
-                  clientId="725822333948-t47dohco5tsu6h1atua8piuu11aemim8.apps.googleusercontent.com"
+                  clientId="clientId"
                   buttonText="LOGIN WITH GOOGLE"
                   fullWidth
                   onSuccess={this.responseGoogle}
@@ -262,7 +262,7 @@ class Login extends Component {
                 <br></br>
 
                 <FacebookLogin
-                  appId="396841438106988"
+                  appId="appId"
                   autoLoad={false}
                   fields="name,email,picture"
                   //onClick={componentClicked}
